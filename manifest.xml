@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
-<OfficeApp  xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" 
-            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-            xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" 
-            xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" 
-            xsi:type="TaskPaneApp"
->
-
-  <Id>45be0b81-ecaa-45dd-bfa1-9421fe5b6896</Id>
-  <Version>1.1.0.0</Version>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">
+  <Id>85f012ac-a2c0-421f-bdd6-17ace85d86f7</Id>
+  <Version>1.0.2</Version>
   <ProviderName>Mail Shark</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="MS Job Tracker"/>
-  <Description DefaultValue="A template to get started."/>
+  <DisplayName DefaultValue="Data Merge Utility"/>
+  <Description DefaultValue="An add in to handle Mail Shark's variable jobs."/>
   <IconUrl DefaultValue="https://www.contoso.com/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://www.contoso.com/assets/JobTracker.png"/>
-  <SupportUrl DefaultValue="https://www.themailshark.com/"/>
+  <HighResolutionIconUrl DefaultValue="https://www.contoso.com/assets/icon-64.png"/>
+  <SupportUrl DefaultValue="mailto:dliehr@themailshark.com"/>
   <AppDomains>
-    <AppDomain>https://www.themailshark.com</AppDomain>
-    <AppDomain>https://employee.themailshark.com/</AppDomain>
+    <AppDomain>https://employee.themailshark.net</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Workbook"/>
@@ -80,13 +72,13 @@
         <bt:Url id="Taskpane.Url" DefaultValue="https://www.contoso.com/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
-        <bt:String id="GetStarted.Title" DefaultValue="Start tracking print jobs!"/>
+        <bt:String id="GetStarted.Title" DefaultValue="Merge your DP lists!"/>
         <bt:String id="CommandsGroup.Label" DefaultValue="Commands Group"/>
-        <bt:String id="TaskpaneButton.Label" DefaultValue="Job Tracker"/>
+        <bt:String id="TaskpaneButton.Label" DefaultValue="Data Merge Utility"/>
       </bt:ShortStrings>
       <bt:LongStrings>
-        <bt:String id="GetStarted.Description" DefaultValue="Mail Shark Job Tracker has loaded. Get started by opening the Production Planning document and navigating to the Master worksheet."/>
-        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Start Tracking Your Jobs"/>
+        <bt:String id="GetStarted.Description" DefaultValue="Use the Data Merge Utility Add-in to handle variable jobs in just seconds."/>
+        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to Show the Data Merge Utility Taskpane"/>
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
